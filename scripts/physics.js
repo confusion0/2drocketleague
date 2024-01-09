@@ -136,6 +136,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener('keydown', function(event) {
   if (event.key == "w") {
-    addForce(objects[1], )
+    addForce(objects[1], 0, 10);
   }
 })
